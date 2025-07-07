@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0 ;
+
+}
+
+.container{
+    background-color: #cec9c9;
+    width: 700px;
+    margin: 10px auto;
+    box-shadow: 10px 10px 20px rgb(48, 47, 47);
+}
+
+label{
+    margin-left: 5px ;
+
+}
+
+
+.search{
+    padding: 5px 20px;
+}
+
+a{
+    display: flex;
+    margin-left: 10px;
+}
+
+hr{
+    border: 1px solid black;
+}
+
+h3{
+    margin: 5px;
+}
+
+.comment{
+    margin: 10px;
+
+}
+
+textarea{
+    width: 400px;
+    height: 220px;
+    margin-left: 10px;
+    display: block;
+    border-radius: 5px;
+}
+
+.submit{
+    margin: 10px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+}
+.submit:hover{
+    background-color: rgb(13, 188, 92);
+    transition: linear .5s;
+    cursor: pointer;
+    color: #ede4e4;
+}
